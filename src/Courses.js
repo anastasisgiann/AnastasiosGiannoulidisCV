@@ -1,5 +1,6 @@
-import js from './assets/config.png'
+import js from './assets/jsimage.png'
 import frontend from './assets/jsx-ui.png'
+import react from './assets/reactimage.png'
 
 
 
@@ -13,13 +14,13 @@ export const Courses = [
     },
     {
         image: frontend,
-        title: 'HTML, CSS, Javascript',
+        title: 'HTML, CSS, Javascript, Bootstrap',
         description: 'The Complete Front-End Web Development Course, Udemy',
         progress: 100,
         date: 'Date started: December 2023'
     },
     {
-        image: js,
+        image: react,
         title: 'React',
         description: 'React - The Complete Guide 2025 (incl. Next.js, Redux), Udemy ',
         progress: 15,
