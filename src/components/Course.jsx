@@ -8,7 +8,7 @@ export default function ({image, title, description, progress,date}) {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <p>{date}</p>
-                <ProgressBar bgColor='#180c61'	 completed={progress}/>
+                <ProgressBar bgColor='#222831'	 completed={progress}/>
             </li>
     )
 };
