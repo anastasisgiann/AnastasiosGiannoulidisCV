@@ -36,7 +36,7 @@ function App() {
           <h2>Online Courses</h2>
           <ul>
             {Courses.map((courseitem) => (
-              <Course {...courseitem}/>
+              <Course key={courseitem.title} {...courseitem}/>
             ))}
           </ul>
         </section>
