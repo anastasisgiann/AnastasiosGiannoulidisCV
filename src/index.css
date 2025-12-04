@@ -151,7 +151,7 @@ main h2 {
 
 
 
-#examples img {
+#projects img {
   height: 15rem;
   width: 15rem;
   border-radius: 5px;
@@ -160,21 +160,21 @@ main h2 {
 
 @media screen and (min-width: 1000px){
   
-  #examples img {
+  #projects img {
     width: 25rem;
     height: 25rem;
   }
 }
 
-#examples {
+#projects {
   margin: 3rem auto;
 }
 
-#examples h2 {
+#projects h2 {
   text-align: center !important;
 }
 
-#examples menu {
+#projects menu {
   margin: 1rem 0;
   padding: 0;
   display: flex;
@@ -182,7 +182,7 @@ main h2 {
   list-style: none;
 }
 
-#examples menu button {
+#projects menu button {
   padding: 0.5rem 0.5rem;
   border: none;
   border-radius: 6px;
@@ -195,12 +195,12 @@ main h2 {
 }
 
 
-#examples menu button:hover {
+#projects menu button:hover {
   background-color: #DFD0B8;
   color: #ffffff;
 }
 
-#examples menu button.active{
+#projects menu button.active{
   background-color: #948979 !important;
   color: #fff;
 }

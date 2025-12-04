@@ -35,12 +35,12 @@ function App() {
         <section id="courses">
           <h2>Online Courses</h2>
           <ul>
-            <Course {...Courses[0]}/>
-            <Course {...Courses[1]}/>
-            <Course {...Courses[2]}/>
+            {Courses.map((courseitem) => (
+              <Course {...courseitem}/>
+            ))}
           </ul>
         </section>
-        <section id="examples">
+        <section id="projects">
           <h2>PROJECTS</h2>
           <menu>
             <ProjectButton 

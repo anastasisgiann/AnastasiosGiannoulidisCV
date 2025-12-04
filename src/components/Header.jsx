@@ -3,10 +3,10 @@ import anastasis from '../assets/myface2.jpg';
 export default function() {
     return(
         <header>
-       <div className="image"><img src={anastasis} alt="Stylized atom" /></div>
+       <div className="image"><img src={anastasis} alt="My face" /></div>
         <div className="rightside"><h1>Anastasios Giannoulidis</h1>
         <p>
-          I’m currently studying frontend and JavaScript development through online courses while building
+          I’m currently studying frontend development through online courses while building
  personal projects to apply my skills. With a BA in Tourism, I’m drawn to frontend development for
  its blend of creativity and technical problem-solving. My goal is to keep learning, grow my portfolio,
  and pursue a career in frontend development.
